@@ -1,0 +1,42 @@
+:root {
+  /* Background and text */
+  --background-dark: #0f1424;
+  --text-white: #ffffff;
+  --text-muted: #bbc0ff;
+
+  /* Main Profile Card */
+  --profile-purple: #5746ea; /* Jeremy Robson card */
+
+  /* Section Headers */
+  --work-orange: #ff8b64;
+  --play-blue: #55c2e6;
+  --study-pink: #ff5c7c;
+  --exercise-green: #4acf81;
+  --social-purple: #7335d2;
+  --selfcare-yellow: #f1c75b;
+
+  /* Section Card Background (Body) */
+  --card-bg: #1c1f4a;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    color: var(--text-white);
+    background-color: var(--background-dark);
+}
+.container{
+    width: 95vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 100px;
+}
+.box{
+        background-color: var(--card-bg);
+        height: 50vh;
+}
